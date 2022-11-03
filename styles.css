@@ -1,0 +1,124 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+.container-width {
+  width: 50%;
+
+}
+
+
+
+.row{
+ margin: 10% auto ;
+}
+
+
+
+.top-contain {
+  background-color: #ffff;
+  padding: 7% 7%;
+  border-radius: 15px 15px 0 0;
+}
+
+.second-contain {
+  background-color: hsl(179, 62%, 43%);
+  padding: 7% 7%;
+  color: #ffff;
+  border-radius: 0 0 0 15px;
+}
+
+.third-contain{
+  background-color: hsl(179, 62%, 50%);
+  padding: 7% 15% 7% 7%;
+  color: #ffff;
+  border-radius: 0 0 15px 0;
+}
+
+
+/* FONT COLORS  */
+
+
+/* 1ST CONTAINER */
+
+.top-header{
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  padding-bottom: 1.5%;
+}
+
+.top-quote{
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+.top-para{
+  color: hsl(218, 22%, 67%);
+}
+
+
+
+/* 2ND CONTAINER */
+
+.dollarr{
+  font-size: 42px;
+  font-weight: 700;
+  margin-right:9px;
+
+}
+
+.left-header{
+  font-weight: 700;
+  padding-bottom: 1.5%;
+}
+
+
+.left-quote{
+ font-weight: lighter;
+ margin-bottom: 0;
+}
+
+.left-para{
+
+}
+
+.btn{
+ background-color:  hsl(71, 73%, 54%);
+ color: #ffff;
+ margin: 25px auto 15px;
+}
+
+.btn:hover{
+  background-color:  hsl(71, 73%, 44%);
+}
+
+/* 3RD CONTAINER */
+
+.right-header{
+  font-weight: 700;
+  padding-bottom: 1.5%;
+}
+.right-quote{
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+
+
+
+  .second-contain{
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .third-contain{
+    width: 100%;
+    border-radius:  0 0 15px 15px;
+  }
+  .container-width {
+    width: 80%;
+
+  }
+}
